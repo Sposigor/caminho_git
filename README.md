@@ -12,3 +12,4 @@ https://git-scm.com/docs/git-config/pt_BR e https://git-scm.com/book/pt-br/v2/Cu
 
 São algumas das configurações iniciais após a instalação, para verificar basta digitar: git config --list
 
+# Inicializando o git e o primeiro commit
