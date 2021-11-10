@@ -12,7 +12,11 @@ Depois de fazer isso, crie uma conta GitHub [aqui](https://github.com/).
 
     Git e GitHub
 
-    Um adendo: Git e GitHub não são a mesma coisa. Git é uma ferramenta de controle de versão de código aberto criada em 2005 por desenvolvedores que trabalham no sistema operacional Linux; GitHub é uma empresa fundada em 2008 que fabrica ferramentas que se integram ao git. Você não precisa do GitHub para usar o git, mas não pode usar o GitHub sem usar o git. Existem muitas outras alternativas ao GitHub, como GitLab, BitBucket e soluções "hospede seu próprio", como gogs e gittea. Todos esses são referidos no git-speak como “remotes” e todos são completamente opcionais. Você não precisa usar um controlador remoto para usar o git, mas tornará mais fácil compartilhar seu código com outras pessoas.
+    Um adendo: Git e GitHub não são a mesma coisa. Git é uma ferramenta de controle de versão de código aberto criada em 2005 por desenvolvedores que trabalham no sistema operacional Linux;
+    GitHub é uma empresa fundada em 2008 que fabrica ferramentas que se integram ao git. 
+    Você não precisa do GitHub para usar o git, mas não pode usar o GitHub sem usar o git. 
+    Existem muitas outras alternativas ao GitHub, como GitLab, BitBucket e soluções "hospede seu próprio", como gogs e gittea. 
+    Todos esses são referidos no git-speak como “remotes” e todos são completamente opcionais. Você não precisa usar um controlador remoto para usar o git, mas tornará mais fácil compartilhar seu código com outras pessoas.
 
 Aqui o link do [Linus Torvalds](https://www.youtube.com/watch?v=o8NPllzkFhE) de um TED que ele explica um pouco sobre o inicio do linux e do GIT.
 
@@ -32,9 +36,7 @@ São algumas das configurações iniciais após a instalação, para verificar b
 
 ## Segundo passo em GIT: Repositorio local
 
-Crie uma pasta em algum lugar do computador e vamos começar a trabalhar, abra a pasta e inicialize o terminal dentro dela, 
-
-Após inicializar o git, vamos criar nosso primeiro projeto/repositorio local(Seu computador).
+Crie uma pasta em algum lugar do computador e vamos começar a trabalhar, abra a pasta e inicialize o terminal dentro dela
 
 > Na linha de comando digitar: **git init**
 
@@ -42,8 +44,9 @@ Para inicializar o git na pasta local e em seguida vamos adicionar os arquivos p
 
 > Na linha de comando digitar: **git add *nome do arquivo* ou *-A*.**
 
-Para adicionar um arquivo em especifico ou todos eles. Apos as alterações vamos agora realizar nosso primeiro commit.
+Para verificar o status vamos digitar:
 
-> Na linha de comando digitar: **git commit -a *"descrição do commit"***
+> Na linha de comando digitar: **git status**
 
-Após a realização dessa 
+Se por acaso não tiver feito o git add, ele vai dizer que faltar usar o git add para continuar com o processo.
+
